@@ -9,9 +9,7 @@ const moment = require('moment')
 require('dotenv-flow').config()
 const env_files = {
     token: process.env.DISCORD_TOKEN,
-    message: process.env.MESSAGE
 }
-let replyMessage = env_files.message
 const token = env_files.token
 
 if(token === '<your token here>'){
